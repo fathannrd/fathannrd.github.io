@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100%;
+    background-image: url(./pattern.png);
+}
+header {
+    display: flex;
+    background-color: brown;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    font-size: 80px;
+    margin: 90px 0 0 0 ;
+    color: #30475e;
+
+}
+.container{
+    text-align: center;
+}
+.input {
+    text-align: center;
+}
+#inputWord {
+    width: 250px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+#addWord {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 25px;
+}
+.do-word {
+     margin-top:  25px;
+}
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 25px;
+}
+.note {
+    display: flex;
+    justify-content: center;
+}
